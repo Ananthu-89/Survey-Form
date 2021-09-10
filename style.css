@@ -1,0 +1,33 @@
+body{
+    background-color:	 #FFFFFF;
+    font-family:verdana; }
+  
+  p{
+    text-align:center;
+  }
+  #heading{
+    background-color: #FF9933;
+    max-width:500px;
+    text-align:center;
+    padding: 20px;
+    margin:auto;
+    }
+    #survey-form{
+      background-color:#138808;
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+      color:white;
+      display:block;
+      padding: 20px;
+     }
+  #name{
+    width:100%;
+  }
+  #email{
+    width:100%;
+  }
+  #number{
+    width:100%;
+  }
+  

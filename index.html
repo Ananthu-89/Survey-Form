@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Survey Form</title>
+
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+    <body >
+        
+        <div id="heading">
+        
+            <h1 id="title">Football League Survey</h1> 
+            <p id = "description">Demographic Survey</p>
+            </div>
+        <div id="Content">
+        
+        <form id="survey-form">
+          <label for="Name" id="name-label">Name:</label><br><input type="text" id="name" placeholder="Your Name" required><br><br>
+           <label for="email" id="email-label">Email:</label><br><input type="email" id="email" placeholder="Your Email" required><br><br>
+          <label for="Age" id="number-label">Age:</label><br><input type="number" id="number"  placeholder="Your Age" min=6 max=100 required><br><br>
+          <label for="gender" id="gender-label">Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male">
+        
+       <label for="male" id="label-male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" id="label-female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other" id="label-other">Other</label><br><br>
+          <label for="Mode" label="label-mode">How do you watch?</label><br>
+          <input type="checkbox" value="Stream">
+          <label for="Stream" id="label-stream">Streaming</label><br><input type="checkbox" value="Cable">
+          <label for="Cable" id="label-Cable">Cable/Satellite</label><br><br>
+          
+           <label for="Cable" id="label-Team">Favourite Team:</label><br>
+          <select name="teams" id="dropdown">
+          <option value="Team A">Team A</option>
+          <option value="Team B">Team B</option>
+          <option value="Team C">Team C</option>
+          <option value="Team D">Team D</option>
+        </select><br><br>
+          
+          <label for="Feedback" id="label-feedback">Feedback:</label><br>
+        <textarea id="Feedback" placeholder="comment here" name="feedback" rows="5" cols="50">
+        </textarea><br><br>
+          <input type="submit" id="submit" >
+          </div>  
+          
+        </form>
+        
+         
+      
+    </body>
+
+</html>
