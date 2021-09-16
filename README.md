@@ -1,1 +1,1 @@
-Survey form using HTML amd cSS for learning.
+Survey form using HTML and CSS for FreeCodeCamp
